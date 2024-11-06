@@ -5,12 +5,11 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+The archieture used for this project is :
 
-A few resources to get you started if this is your first Flutter project:
+Feature-Based Architecture: The project is organized into distinct features, with each feature encompassing its own model, user interface, and data model. This structure allows each feature to encapsulate all components pertinent to its specific functionality, resulting in a modular architecture that facilitates scalability and enhances maintainability.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Third Party dependencies used in application are:
+1.  Provider- For managing the state of the application and smoother data states.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app contains Hollistic static data which can be edited as well as deleted. User can add more data.
